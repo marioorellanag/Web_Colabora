@@ -1,0 +1,23 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.nav-link {
+    color: #050505 !important;
+    margin: 0 0 0 100px;
+    font-weight: 400 !important;
+}
+.nav-link:hover {
+    color: #F49523 !important;
+}
+
+.logo_navbar{
+    min-height: 40px;
+}
+.navbar {
+    -webkit-box-shadow: 0px -20px 13px 24px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px -20px 13px 24px rgba(0,0,0,0.38);
+    box-shadow: 0px -20px 13px 24px rgba(0,0,0,0.38);
+    padding: 10px 0;
+}
