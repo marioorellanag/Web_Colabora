@@ -13,13 +13,13 @@ body, header, html {
 }
 
 .logo_navbar{
-    min-height: 40px;
+    min-height: 30px;
 }
 .navbar {
     -webkit-box-shadow: 0px -20px 13px 24px rgba(0,0,0,0.38);
     -moz-box-shadow: 0px -20px 13px 24px rgba(0,0,0,0.38);
     box-shadow: 0px -20px 13px 24px rgba(0,0,0,0.38);
-    padding: 10px 0;
+    padding: 5px 0;
 }
 header img {
     height: 400px;
@@ -35,6 +35,58 @@ header .carousel-caption {
     text-align: end;
     float: right;
     margin: 100px 50px;
+}
+
+.carousel-item {
+    
+}
+.carousel-item img {
+    object-fit: cover;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-item img {
+        object-fit: cover;
+        max-height: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .carousel-item img {
+        object-fit: cover;
+        max-height: 300px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .carousel-item img {
+        object-fit: cover;
+        max-height: 400px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .carousel-item img {
+        object-fit: cover;
+        max-height: 500px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .carousel-item img {
+        object-fit: cover;
+        max-height: 600px;
+    }
+}
+
+
+.carousel-caption h1, .carousel-caption h5, .carousel-caption p {
+    background-color: rgba(0,0,0,0.5);
+    padding: 0 10px;
 }
 
 .input-message {
@@ -132,7 +184,16 @@ footer{
     background-position: left;
     background-repeat: no-repeat;
 }
+.metodologia img {
+    padding: 40px 0 60px;
+    max-width: 90%;
+    width: 450px;
+}
 
 .right_footer {
     font-size: 12px;
+}
+
+footer .row{
+    background-color:#d9d9d9;
 }
