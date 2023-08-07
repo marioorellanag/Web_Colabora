@@ -2,10 +2,12 @@ body, header, html {
     font-family: 'Raleway', sans-serif;
 }
 
-
+.vision h2, .vision p, .metodologia h2, .metodologia p {
+    margin: 0 10%;
+}
 .nav-link {
     color: #050505 !important;
-    margin: 0 0 0 100px;
+    margin: 0 50px 0 0px;
     font-weight: 400 !important;
 }
 .nav-link:hover {
@@ -32,9 +34,8 @@ header .carousel-caption {
 }
 .txt_header {
     width: 30%;
-    text-align: end;
     float: right;
-    margin: 100px 50px;
+    margin: 50px 50px;
 }
 
 .carousel-item {
@@ -47,7 +48,7 @@ header .carousel-caption {
 @media only screen and (max-width: 600px) {
     .carousel-item img {
         object-fit: cover;
-        max-height: 300px;
+        max-height: 180px;
     }
 }
 
@@ -55,7 +56,7 @@ header .carousel-caption {
 @media only screen and (min-width: 600px) {
     .carousel-item img {
         object-fit: cover;
-        max-height: 300px;
+        max-height: 250px;
     }
 }
 
@@ -63,7 +64,7 @@ header .carousel-caption {
 @media only screen and (min-width: 768px) {
     .carousel-item img {
         object-fit: cover;
-        max-height: 400px;
+        max-height: 350px;
     }
 }
 
@@ -71,7 +72,7 @@ header .carousel-caption {
 @media only screen and (min-width: 992px) {
     .carousel-item img {
         object-fit: cover;
-        max-height: 500px;
+        max-height: 450px;
     }
 }
 
@@ -79,7 +80,7 @@ header .carousel-caption {
 @media only screen and (min-width: 1200px) {
     .carousel-item img {
         object-fit: cover;
-        max-height: 600px;
+        max-height: 550px;
     }
 }
 
@@ -88,13 +89,16 @@ header .carousel-caption {
     background-color: rgba(0,0,0,0.5);
     padding: 0 10px;
 }
+.carousel-caption h5 {
+    font-size: medium;
+}
 
 .input-message {
     min-height: 300px;
 }
 
 .input-name, .input-mail, .input-message{
-    width: 60%;
+    width: 70%;
     border-radius: 8px;
     margin: 8px 0;
     padding: 4px;
@@ -135,15 +139,15 @@ footer{
 }
 
 .logo_footer img {
-    width: 300px;
+    width: 250px;
     margin: 40px auto;
 }
 
 .rrss_footer .container {
-    max-width: 400px;    
+    max-width: 300px;    
 }
 .rrss_footer .container {
-    max-width: 400px;    
+    max-width: 300px;    
 }
 .rrss_footer .container img{
     color: #F49523;
@@ -155,7 +159,11 @@ footer{
     filter: brightness(250%) contrast(120%);
 }
 
-
+.list_footer {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+}
 .list_footer a, .right_footer a{
     color: #07A438;
 }
@@ -208,3 +216,8 @@ footer .row{
     margin: 0 auto;
     width: 300px;
 }
+
+footer ul {
+    padding-left: 0;
+}
+
